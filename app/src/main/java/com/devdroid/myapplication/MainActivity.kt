@@ -47,7 +47,7 @@ class RTSPService : Service() {
     }
 
     private fun launchRTSPStream() {
-        val rtspUrl = "rtsp://ldskcam:0508444i@93.91.4.106:37713/cam/realmonitor?channel=1&subtype=0" // ваш RTSP поток
+        val rtspUrl = "" // ваш RTSP поток
         // Запуск VLC плеера с RTSP потоком
         val VPath = "com.devdroid.videoexample2"
         val packageVLC = "org.videolan.vlc"
